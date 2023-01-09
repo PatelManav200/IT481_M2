@@ -1,0 +1,13 @@
+C:\Users\gener\source\repos\IT481_Patel\bin\Debug\northwnd.ldf
+C:\Users\gener\source\repos\IT481_Patel\bin\Debug\northwnd.mdf
+C:\Users\gener\source\repos\IT481_Patel\bin\Debug\IT481_Patel.exe.config
+C:\Users\gener\source\repos\IT481_Patel\bin\Debug\IT481_Patel.exe
+C:\Users\gener\source\repos\IT481_Patel\bin\Debug\IT481_Patel.pdb
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.csproj.AssemblyReference.cache
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.csproj.SuggestedBindingRedirects.cache
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.Form1.resources
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.Properties.Resources.resources
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.csproj.GenerateResource.cache
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.csproj.CoreCompileInputs.cache
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.exe
+C:\Users\gener\source\repos\IT481_Patel\obj\Debug\IT481_Patel.pdb
