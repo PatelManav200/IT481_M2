@@ -30,8 +30,8 @@ namespace IT481_Patel
         {
             try
             {
-                string query = "SELECT ContactName FROM [dbo].[Customers]";
-                string query2 = "SELECT COUNT(*) as 'Number Of Customers' FROM [dbo].[Customers]";
+                string query = "SELECT [ShipName] FROM [dbo].[Orders]";
+                string query2 = "SELECT COUNT(*) as 'Number Of Customers' FROM [dbo].[Orders]";
                 conn.Open();
                 SqlCommand command = new SqlCommand(query, conn);
                 SqlCommand command2 = new SqlCommand(query2, conn);
@@ -40,7 +40,7 @@ namespace IT481_Patel
 
                 while (reader.Read())
                 {
-                    data.Add(reader["ContactName"].ToString());
+                    data.Add(reader["ShipName"].ToString());
                 }
                 reader.Close();
                 while (reader2.Read())
@@ -63,11 +63,13 @@ namespace IT481_Patel
             numOfCustomers.Text = numOfCustomers.Text + numberofCustomers;
             foreach(var item in data)
             {
-                listView1.Items.Add(item.Split(' ')[1]);
+                listView1.Items.Add(item);
             }
         }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }
